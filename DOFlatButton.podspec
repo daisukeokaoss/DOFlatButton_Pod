@@ -25,8 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '岡大輔' => 'daisukeokahassou@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DOFlatButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/daisukeokaoss/DOFlatButton_Pod.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/daisukeokaoss'
 
   s.ios.deployment_target = '8.0'
 
