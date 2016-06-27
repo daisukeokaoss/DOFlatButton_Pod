@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DOFlatButton written by Swift is converted from QBFlatButton written by Objective-C
                        DESC
 
   s.homepage         = 'https://github.com/daisukeokaoss/DOFlatButton_Pod'
