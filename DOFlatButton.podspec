@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 DOFlatButton written by Swift is converted from QBFlatButton written by Objective-C
+Flat style button.
                        DESC
 
   s.homepage         = 'https://github.com/daisukeokaoss/DOFlatButton_Pod'

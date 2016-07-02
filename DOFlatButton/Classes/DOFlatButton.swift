@@ -207,9 +207,9 @@ public class DOFlatButton :UIButton
     override public func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
-        var size:CGSize = self.bounds.size
+        let size:CGSize = self.bounds.size
         
-        var surfaceRect:CGRect = CGRectMake(0, 0, size.width, size.height)
+        let surfaceRect:CGRect = CGRectMake(0, 0, size.width, size.height)
         var surfaceImage:UIImage
         
         UIGraphicsBeginImageContextWithOptions(surfaceRect.size, false, 0.0);
@@ -234,7 +234,7 @@ public class DOFlatButton :UIButton
         
         self.drawRoundedRect(sideRect, radius: self.radius!, context: UIGraphicsGetCurrentContext()!)
         
-        var actualSurfaceRect:CGRect
+        let actualSurfaceRect:CGRect
         
         if(self.state == UIControlState.Selected || self.state == UIControlState.Highlighted){
             actualSurfaceRect = CGRectMake(0, self.depth!, size.width, size.height - self.margin!)
@@ -246,19 +246,20 @@ public class DOFlatButton :UIButton
         
     }
     
-    func drawRoundedRect(var rect:CGRect,radius:CGFloat,context:CGContextRef)
+    func drawRoundedRect(rect:CGRect,radius:CGFloat,context:CGContextRef)
     {
-        rect.origin.x += 0.5
-        rect.origin.y += 0.5
-        rect.size.width -= 1.0
-        rect.size.height -= 1.0
+        var rectvariable = rect
+        rectvariable.origin.x += 0.5
+        rectvariable.origin.y += 0.5
+        rectvariable.size.width -= 1.0
+        rectvariable.size.height -= 1.0
         
-        let minX:CGFloat = CGRectGetMinX(rect)
-        let midX:CGFloat = CGRectGetMidX(rect)
-        let maxX:CGFloat = CGRectGetMaxX(rect)
-        let minY:CGFloat = CGRectGetMinY(rect)
-        let midY:CGFloat = CGRectGetMidY(rect)
-        let maxY:CGFloat = CGRectGetMaxY(rect)
+        let minX:CGFloat = CGRectGetMinX(rectvariable)
+        let midX:CGFloat = CGRectGetMidX(rectvariable)
+        let maxX:CGFloat = CGRectGetMaxX(rectvariable)
+        let minY:CGFloat = CGRectGetMinY(rectvariable)
+        let midY:CGFloat = CGRectGetMidY(rectvariable)
+        let maxY:CGFloat = CGRectGetMaxY(rectvariable)
         
         CGContextMoveToPoint(context, minX, midY);
         CGContextAddArcToPoint(context, minX, minY, midX, minY, radius);
