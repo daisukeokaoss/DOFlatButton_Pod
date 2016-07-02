@@ -11,7 +11,7 @@
 ###face Color
 A surface color of the button
 
-`button.faceColor = = UIColor(red: 86.0/255.0, green: 161.0/255.0, blue: 217.0/255.0, alpha: 1.0)`
+`button.faceColor = UIColor(red: 86.0/255.0, green: 161.0/255.0, blue: 217.0/255.0, alpha: 1.0)`
 
 ###sideColor
 A side color of the button
