@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2768B14AEDCEE9695FB10DF3D22AC0AA /* Pods-DOFlatButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE31DECFEEC5577437D2A42990B4979 /* Pods-DOFlatButton_Example-dummy.m */; };
+		3379F9AFB4B6541147B6B1CD36A23C98 /* DOFlatButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4FE532FD91686100067114B9DEAC69 /* DOFlatButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536BBC2E6B4B0918E3F040DE13B40970 /* DOFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7123F49667E059E836EBEAF29088DA0 /* DOFlatButton.swift */; };
+		6B00A9F781FAB9B7D8839693229F5F2F /* Pods-DOFlatButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 764B7AC1EFD683B72BF38255E3E0C744 /* Pods-DOFlatButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B70FC5FD6D8CE44AADC2279C681B45A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6C1474D79F2602C7ABFE54F229BF16D7 /* DOFlatButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8453E10CC1702A37AEF62A6EDF4E22 /* DOFlatButton-dummy.m */; };
+		A8CA9C03F494D7C06BDFD9DA08A26485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C2426EC7717BBBC229A01046625F917A /* Pods-DOFlatButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256512B5B8AEE039BD88A8218F4EDB12 /* Pods-DOFlatButton_Tests-dummy.m */; };
+		C4C018F92B122F342E65C3DC9E2E1A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C6776461A8E2997D1C9642DC6C71073D /* Pods-DOFlatButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A721E944F7871DD4C61E923ECCB2CA7 /* Pods-DOFlatButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6F3FCF9C2896A54FE7D3DBBBB522AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E22C92A032F9557595BC6BD378353B;
+			remoteInfo = DOFlatButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010EFA929013CB18FEDE430A54442472 /* Pods-DOFlatButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOFlatButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AC37E35D77DCCC88E3435C85792B7BB /* Pods-DOFlatButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DOFlatButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		256512B5B8AEE039BD88A8218F4EDB12 /* Pods-DOFlatButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DOFlatButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D771A1212558174085349B94D469D1E /* DOFlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DOFlatButton.xcconfig; sourceTree = "<group>"; };
+		34C1CAD15780BB8206EA00FA519B879C /* Pods-DOFlatButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DOFlatButton_Tests.modulemap"; sourceTree = "<group>"; };
+		380DE242BD595B438C697BF5CE05CFCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BA81DD34D6C6C74C90C49D86D85735 /* DOFlatButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DOFlatButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A721E944F7871DD4C61E923ECCB2CA7 /* Pods-DOFlatButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DOFlatButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B964AB2E009250188BFF680608A9D4A /* DOFlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DOFlatButton-prefix.pch"; sourceTree = "<group>"; };
+		4CE31DECFEEC5577437D2A42990B4979 /* Pods-DOFlatButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DOFlatButton_Example-dummy.m"; sourceTree = "<group>"; };
+		554964A68E524EE03FFF493751BB65CF /* Pods-DOFlatButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DOFlatButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		622CFC470EC28FE3C186C07FF6BFF008 /* Pods-DOFlatButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOFlatButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		65A9F10D73142392831C7E1D4AC4A824 /* Pods-DOFlatButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DOFlatButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		736E106D2CF69763FA9D49205484773F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BA6EC742E503155932852370815B1C /* Pods_DOFlatButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOFlatButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		764B7AC1EFD683B72BF38255E3E0C744 /* Pods-DOFlatButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DOFlatButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85B5CA5A98D93F51F01D77289AE0B46C /* DOFlatButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DOFlatButton.modulemap; sourceTree = "<group>"; };
+		8E71C9762BCC9D73B78DC14EDC605ED9 /* Pods-DOFlatButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DOFlatButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5A103D7B754700210E8A7D0CE70941 /* Pods-DOFlatButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DOFlatButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A04A09E1300EF13CE3B6722B85B73DB5 /* Pods-DOFlatButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DOFlatButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3C5309DBBA2D263B878165AC21B23BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66B34E6D1A39F15733C5700DBD50D52 /* Pods-DOFlatButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DOFlatButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7123F49667E059E836EBEAF29088DA0 /* DOFlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DOFlatButton.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2A78785112D5ED15E1698338BC4A5D0 /* Pods-DOFlatButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOFlatButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6356FBEE5CD293D81BA3DEC44D7C936 /* Pods_DOFlatButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOFlatButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8453E10CC1702A37AEF62A6EDF4E22 /* DOFlatButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DOFlatButton-dummy.m"; sourceTree = "<group>"; };
+		DE5DA314594393BE03AA1E5FCADF2426 /* Pods-DOFlatButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DOFlatButton_Example-resources.sh"; sourceTree = "<group>"; };
+		DF4FE532FD91686100067114B9DEAC69 /* DOFlatButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DOFlatButton-umbrella.h"; sourceTree = "<group>"; };
+		E2F2DB5A65AF04505B69146B6E141E4E /* Pods-DOFlatButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DOFlatButton_Example.modulemap"; sourceTree = "<group>"; };
+		FB7B59ABA75A25A4A8207D16ACBDD3C9 /* Pods-DOFlatButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOFlatButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15152657D60154A597DB6392AAA8DEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA9C03F494D7C06BDFD9DA08A26485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA5002AA68AE820631AE20558033236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C018F92B122F342E65C3DC9E2E1A4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984A1F08B22F8E85E1994FF80F6FD05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B70FC5FD6D8CE44AADC2279C681B45A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0457DF32F6BDAADA132F893588A6CED6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85B5CA5A98D93F51F01D77289AE0B46C /* DOFlatButton.modulemap */,
+				2D771A1212558174085349B94D469D1E /* DOFlatButton.xcconfig */,
+				DD8453E10CC1702A37AEF62A6EDF4E22 /* DOFlatButton-dummy.m */,
+				4B964AB2E009250188BFF680608A9D4A /* DOFlatButton-prefix.pch */,
+				DF4FE532FD91686100067114B9DEAC69 /* DOFlatButton-umbrella.h */,
+				A3C5309DBBA2D263B878165AC21B23BA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DOFlatButton";
+			sourceTree = "<group>";
+		};
+		0D861C221D7EE2EA2AC77897B7B9DF3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31DDEFCD138BADB6A687029EC49B9EC /* Pods-DOFlatButton_Example */,
+				0F82170D92CB8EFC92AEBD859FB1DA7A /* Pods-DOFlatButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F82170D92CB8EFC92AEBD859FB1DA7A /* Pods-DOFlatButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				380DE242BD595B438C697BF5CE05CFCE /* Info.plist */,
+				34C1CAD15780BB8206EA00FA519B879C /* Pods-DOFlatButton_Tests.modulemap */,
+				A04A09E1300EF13CE3B6722B85B73DB5 /* Pods-DOFlatButton_Tests-acknowledgements.markdown */,
+				8E71C9762BCC9D73B78DC14EDC605ED9 /* Pods-DOFlatButton_Tests-acknowledgements.plist */,
+				256512B5B8AEE039BD88A8218F4EDB12 /* Pods-DOFlatButton_Tests-dummy.m */,
+				B66B34E6D1A39F15733C5700DBD50D52 /* Pods-DOFlatButton_Tests-frameworks.sh */,
+				554964A68E524EE03FFF493751BB65CF /* Pods-DOFlatButton_Tests-resources.sh */,
+				764B7AC1EFD683B72BF38255E3E0C744 /* Pods-DOFlatButton_Tests-umbrella.h */,
+				D2A78785112D5ED15E1698338BC4A5D0 /* Pods-DOFlatButton_Tests.debug.xcconfig */,
+				010EFA929013CB18FEDE430A54442472 /* Pods-DOFlatButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-DOFlatButton_Tests";
+			path = "Target Support Files/Pods-DOFlatButton_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51630319BE8A064C24F9D96710FE0BA8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9139ED4C0EA702DAF8625CE6D6163BDE /* DOFlatButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6CBD4D85295ECCFEE79FBCA2D1A39A1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B7123F49667E059E836EBEAF29088DA0 /* DOFlatButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		707515A966F3C82F7DF16B183395C320 /* DOFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD4D85295ECCFEE79FBCA2D1A39A1D /* Classes */,
+			);
+			path = DOFlatButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				51630319BE8A064C24F9D96710FE0BA8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CA7D450578142687425B36651E670B6A /* Products */,
+				0D861C221D7EE2EA2AC77897B7B9DF3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9139ED4C0EA702DAF8625CE6D6163BDE /* DOFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				707515A966F3C82F7DF16B183395C320 /* DOFlatButton */,
+				0457DF32F6BDAADA132F893588A6CED6 /* Support Files */,
+			);
+			name = DOFlatButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B31DDEFCD138BADB6A687029EC49B9EC /* Pods-DOFlatButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				736E106D2CF69763FA9D49205484773F /* Info.plist */,
+				E2F2DB5A65AF04505B69146B6E141E4E /* Pods-DOFlatButton_Example.modulemap */,
+				9B5A103D7B754700210E8A7D0CE70941 /* Pods-DOFlatButton_Example-acknowledgements.markdown */,
+				1AC37E35D77DCCC88E3435C85792B7BB /* Pods-DOFlatButton_Example-acknowledgements.plist */,
+				4CE31DECFEEC5577437D2A42990B4979 /* Pods-DOFlatButton_Example-dummy.m */,
+				65A9F10D73142392831C7E1D4AC4A824 /* Pods-DOFlatButton_Example-frameworks.sh */,
+				DE5DA314594393BE03AA1E5FCADF2426 /* Pods-DOFlatButton_Example-resources.sh */,
+				4A721E944F7871DD4C61E923ECCB2CA7 /* Pods-DOFlatButton_Example-umbrella.h */,
+				622CFC470EC28FE3C186C07FF6BFF008 /* Pods-DOFlatButton_Example.debug.xcconfig */,
+				FB7B59ABA75A25A4A8207D16ACBDD3C9 /* Pods-DOFlatButton_Example.release.xcconfig */,
+			);
+			name = "Pods-DOFlatButton_Example";
+			path = "Target Support Files/Pods-DOFlatButton_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7D450578142687425B36651E670B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BA81DD34D6C6C74C90C49D86D85735 /* DOFlatButton.framework */,
+				73BA6EC742E503155932852370815B1C /* Pods_DOFlatButton_Example.framework */,
+				D6356FBEE5CD293D81BA3DEC44D7C936 /* Pods_DOFlatButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C019899A9DF586F3BA2E2107FC19CED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3379F9AFB4B6541147B6B1CD36A23C98 /* DOFlatButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7B5FB47E83F8EDC3441852471CC1FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6776461A8E2997D1C9642DC6C71073D /* Pods-DOFlatButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA808AE413D1BD2CAAC7E99DA8914F6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00A9F781FAB9B7D8839693229F5F2F /* Pods-DOFlatButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05E22C92A032F9557595BC6BD378353B /* DOFlatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE108622628A9F21F0C8EA3DF0C5131E /* Build configuration list for PBXNativeTarget "DOFlatButton" */;
+			buildPhases = (
+				B290B9A365F8B0C4885E1C7F234EFB9B /* Sources */,
+				15152657D60154A597DB6392AAA8DEB9 /* Frameworks */,
+				2C019899A9DF586F3BA2E2107FC19CED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOFlatButton;
+			productName = DOFlatButton;
+			productReference = 39BA81DD34D6C6C74C90C49D86D85735 /* DOFlatButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FA0C1885B7189817F93E7A27575F2EB /* Pods-DOFlatButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A9724B9FA2E3E5706F52C7F7600334 /* Build configuration list for PBXNativeTarget "Pods-DOFlatButton_Tests" */;
+			buildPhases = (
+				16A1AD6F0AEF208AD951285A5F13C68A /* Sources */,
+				4EA5002AA68AE820631AE20558033236 /* Frameworks */,
+				FA808AE413D1BD2CAAC7E99DA8914F6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DOFlatButton_Tests";
+			productName = "Pods-DOFlatButton_Tests";
+			productReference = D6356FBEE5CD293D81BA3DEC44D7C936 /* Pods_DOFlatButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AC8A9C42052600913C45BED915F114E /* Pods-DOFlatButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1CB42AF17AE5CD4461D5486249D540 /* Build configuration list for PBXNativeTarget "Pods-DOFlatButton_Example" */;
+			buildPhases = (
+				02071488891F1D44CC9AE71B4F22F5F2 /* Sources */,
+				984A1F08B22F8E85E1994FF80F6FD05F /* Frameworks */,
+				7B7B5FB47E83F8EDC3441852471CC1FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8087036C3B5EA2F3803605C7F818D19 /* PBXTargetDependency */,
+			);
+			name = "Pods-DOFlatButton_Example";
+			productName = "Pods-DOFlatButton_Example";
+			productReference = 73BA6EC742E503155932852370815B1C /* Pods_DOFlatButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CA7D450578142687425B36651E670B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E22C92A032F9557595BC6BD378353B /* DOFlatButton */,
+				8AC8A9C42052600913C45BED915F114E /* Pods-DOFlatButton_Example */,
+				6FA0C1885B7189817F93E7A27575F2EB /* Pods-DOFlatButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02071488891F1D44CC9AE71B4F22F5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2768B14AEDCEE9695FB10DF3D22AC0AA /* Pods-DOFlatButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A1AD6F0AEF208AD951285A5F13C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2426EC7717BBBC229A01046625F917A /* Pods-DOFlatButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290B9A365F8B0C4885E1C7F234EFB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1474D79F2602C7ABFE54F229BF16D7 /* DOFlatButton-dummy.m in Sources */,
+				536BBC2E6B4B0918E3F040DE13B40970 /* DOFlatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8087036C3B5EA2F3803605C7F818D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DOFlatButton;
+			target = 05E22C92A032F9557595BC6BD378353B /* DOFlatButton */;
+			targetProxy = 1D6F3FCF9C2896A54FE7D3DBBBB522AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EA34FC4F4051B054C42CB6ACC58F611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D771A1212558174085349B94D469D1E /* DOFlatButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DOFlatButton/DOFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DOFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DOFlatButton/DOFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DOFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59A1A911A509177D146B66F95A1ADF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010EFA929013CB18FEDE430A54442472 /* Pods-DOFlatButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DOFlatButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DOFlatButton_Tests/Pods-DOFlatButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DOFlatButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A7200B06BF5D006A961A73AA691F6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622CFC470EC28FE3C186C07FF6BFF008 /* Pods-DOFlatButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DOFlatButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DOFlatButton_Example/Pods-DOFlatButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DOFlatButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8677C9C74D7900F3A5C2F0EF6E334880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D771A1212558174085349B94D469D1E /* DOFlatButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DOFlatButton/DOFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DOFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DOFlatButton/DOFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DOFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADC5A1E98A683E5DF6A0FB32D934735C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7B59ABA75A25A4A8207D16ACBDD3C9 /* Pods-DOFlatButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DOFlatButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DOFlatButton_Example/Pods-DOFlatButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DOFlatButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF07ED850D525CAC00D18DDD62A6417F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A78785112D5ED15E1698338BC4A5D0 /* Pods-DOFlatButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DOFlatButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DOFlatButton_Tests/Pods-DOFlatButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DOFlatButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A9724B9FA2E3E5706F52C7F7600334 /* Build configuration list for PBXNativeTarget "Pods-DOFlatButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF07ED850D525CAC00D18DDD62A6417F /* Debug */,
+				59A1A911A509177D146B66F95A1ADF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE108622628A9F21F0C8EA3DF0C5131E /* Build configuration list for PBXNativeTarget "DOFlatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8677C9C74D7900F3A5C2F0EF6E334880 /* Debug */,
+				4EA34FC4F4051B054C42CB6ACC58F611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1CB42AF17AE5CD4461D5486249D540 /* Build configuration list for PBXNativeTarget "Pods-DOFlatButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7200B06BF5D006A961A73AA691F6EF /* Debug */,
+				ADC5A1E98A683E5DF6A0FB32D934735C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

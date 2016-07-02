@@ -1,0 +1,6 @@
+framework module Pods_DOFlatButton_Example {
+  umbrella header "Pods-DOFlatButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

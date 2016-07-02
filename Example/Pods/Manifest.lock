@@ -1,0 +1,16 @@
+PODS:
+  - DOFlatButton (0.1.0)
+
+DEPENDENCIES:
+  - DOFlatButton (from `../`)
+
+EXTERNAL SOURCES:
+  DOFlatButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DOFlatButton: 9e92e274c7ef212f87dd3c20c49e85a689274e17
+
+PODFILE CHECKSUM: e5a494a533fe71b9eaf5e8ba3a35e990f288ca8b
+
+COCOAPODS: 1.0.1

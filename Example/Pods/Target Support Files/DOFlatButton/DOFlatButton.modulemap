@@ -1,0 +1,6 @@
+framework module DOFlatButton {
+  umbrella header "DOFlatButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
