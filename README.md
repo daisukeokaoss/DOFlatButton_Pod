@@ -17,7 +17,10 @@ DOFlatButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DOFlatButton"
+use_frameworks!
+target "YourAppName" do
+    pod "DOFlatButton"
+end
 ```
 
 ## Author
